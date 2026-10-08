@@ -1,4 +1,4 @@
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 function Stars({ count }: { count: number }) {
   return (
@@ -21,13 +21,6 @@ function Stars({ count }: { count: number }) {
 
 export default function Reviews() {
   const t = useTranslations('reviews');
-  const messages = useMessages() as any;
-  const items = (messages?.reviews?.items || []) as Array<{
-    name: string;
-    date: string;
-    rating: number;
-    text: string;
-  }>;
 
   return (
     <section id="reviews" className="section-padding">
@@ -40,64 +33,35 @@ export default function Reviews() {
         </h2>
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
-        <p
-          className="text-sm leading-relaxed mb-10 max-w-2xl"
-          style={{ color: 'var(--text-muted)' }}
+        {/* Rating snapshot — sourced from Google Maps, not fabricated on-site */}
+        <div
+          className="rounded-xl p-6 sm:p-8 mb-6 flex flex-col sm:flex-row items-start sm:items-center gap-6"
+          style={{
+            background: 'var(--card-bg)',
+            boxShadow: 'var(--card-shadow)',
+            border: '1px solid var(--border-color)',
+          }}
         >
-          {t('declaration')}
-        </p>
-
-        <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
-          {items.map((review, i) => (
-            <div
-              key={i}
-              className="rounded-xl p-5 sm:p-6 transition-shadow hover:shadow-md"
-              style={{
-                background: 'var(--card-bg)',
-                boxShadow: 'var(--card-shadow)',
-                border: '1px solid var(--border-color)',
-              }}
+          <div className="flex items-center gap-4">
+            <span
+              className="font-display text-4xl font-bold leading-none"
+              style={{ color: 'var(--accent)' }}
             >
-              <div className="flex items-start justify-between mb-3">
-                <div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <div
-                      className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold text-white"
-                      style={{ background: 'var(--accent)' }}
-                    >
-                      {review.name.charAt(0)}
-                    </div>
-                    <span
-                      className="text-sm font-semibold"
-                      style={{ color: 'var(--text-primary)' }}
-                    >
-                      {review.name}
-                    </span>
-                  </div>
-                </div>
-                <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                  {review.date}
-                </span>
-              </div>
-              <Stars count={review.rating} />
-              <p className="text-sm mt-3 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                {review.text}
+              {t('ratingValue')}
+            </span>
+            <div>
+              <Stars count={4} />
+              <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
+                {t('snapshot')}
               </p>
             </div>
-          ))}
-        </div>
-
-        {/* More reviews link — arrow only */}
-        <div className="flex justify-center">
+          </div>
           <a
             href="https://maps.app.goo.gl/drj7Vr1ua1Lsm4UM8"
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium transition-all"
-            style={{
-              color: 'var(--accent)',
-              border: '1px solid var(--accent)',
-            }}
+            className="group flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium transition-all sm:ml-auto"
+            style={{ color: 'var(--accent)', border: '1px solid var(--accent)' }}
           >
             <span>{t('moreReviews')}</span>
             <svg
@@ -114,6 +78,10 @@ export default function Reviews() {
             </svg>
           </a>
         </div>
+
+        <p className="text-sm leading-relaxed max-w-2xl" style={{ color: 'var(--text-muted)' }}>
+          {t('declaration')}
+        </p>
       </div>
     </section>
   );

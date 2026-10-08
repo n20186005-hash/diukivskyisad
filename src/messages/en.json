@@ -114,7 +114,7 @@
   "transport": {
     "title": "Transportation",
     "airport": "From the Airport",
-    "airportDesc": "Nearest airport: Odesa International Airport (ODS) (approx. 10 km, 20 minutes drive). From the airport, you can take a taxi or public transport to the city center.",
+    "airportDesc": "Nearest airport: Odesa International Airport (ODS), about 10 km. Note: civil flights to Odesa and across Ukraine are currently limited under the wartime situation — please check the current status before travelling. The easiest way to reach Odesa is by train, intercity bus or car; from the railway or bus station, take a taxi or public transport to the park.",
     "selfDrive": "Driving",
     "selfDriveDesc": "Odesa has convenient transportation within the city. It is recommended to park in paid parking lots around the park.",
     "bus": "Public Transport",
@@ -167,7 +167,7 @@
         "name": "Abandoned Buildings & Ponds",
         "desc": "Capture the grand abandoned buildings with a sense of historical vicissitudes and the tranquil ponds, perfect for ruin-style or retro portrait photography"
       }
-    ], 
+    ],
     "tips": "Photography Tips",
     "tipsContent": "Spring and autumn are the most beautiful seasons for Diukivskyi Sad, with lush greenery, making them the best timing for photography."
   },
@@ -202,56 +202,8 @@
     "title": "Visitor Reviews",
     "declaration": "Review information can be viewed via Google Maps (external link).",
     "moreReviews": "View More Reviews on Google Maps",
-    "items": [
-      {
-        "name": "Oleksandr Kovalenko",
-        "date": "2 months ago",
-        "rating": 4,
-        "text": "A nice park, suitable for walking and relaxation. Rich greenery and fresh air. However, some facilities are outdated, hoping for improvements."
-      },
-      {
-        "name": "Nataliia Petrenko",
-        "date": "1 month ago",
-        "rating": 5,
-        "text": "I really like this park! Lush greenery and beautiful environment. A great place to take family for a walk on weekends. Highly recommended for nature lovers."
-      },
-      {
-        "name": "Ihor Bondarenko",
-        "date": "3 months ago",
-        "rating": 4,
-        "text": "The park is quite large with multiple walking paths. However, maintenance in some areas is not good enough, hoping for better management."
-      },
-      {
-        "name": "Oksana Shevchenko",
-        "date": "Over 6 months ago",
-        "rating": 5,
-        "text": "A wonderful park! Very close to my home, I often come here for walks. Spring flowers are very beautiful, perfect for photography."
-      },
-      {
-        "name": "Volodymyr Melnyk",
-        "date": "1 year ago",
-        "rating": 4,
-        "text": "The park environment is nice, with many benches for resting. However, there are few trash bins, hoping for more to be added."
-      },
-      {
-        "name": "Tetiana Ivanenko",
-        "date": "Over 6 months ago",
-        "rating": 5,
-        "text": "A very beautiful and peaceful park. We walked here and enjoyed the beauty of nature. Children also love it here, with plenty of space to run and play."
-      },
-      {
-        "name": "Serhii Lysenko",
-        "date": "3 months ago",
-        "rating": 4,
-        "text": "Good location, convenient transportation. However, it gets crowded on weekends, recommended to visit on weekdays for more tranquility."
-      },
-      {
-        "name": "Mariia Hrytsenko",
-        "date": "2 months ago",
-        "rating": 5,
-        "text": "A hidden gem park in Odesa! Although not as famous as the large parks in the city center, it's more peaceful and natural. Very suitable for those wanting to escape the city noise."
-      }
-    ]
+    "ratingValue": "3.9",
+    "snapshot": "Average rating 3.9 based on 5,994 Google reviews"
   },
   "mapSection": {
     "title": "Transportation Guide",
@@ -291,7 +243,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: June 2026",
+    "lastUpdated": "Last Updated: October 2026",
     "sections": [
       {
         "heading": "1. Information We Collect",
@@ -313,7 +265,7 @@
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Last Updated: June 2026",
+    "lastUpdated": "Last Updated: October 2026",
     "sections": [
       {
         "heading": "1. Acceptance of Terms",
@@ -339,7 +291,7 @@
   },
   "cookieSettings": {
     "title": "Cookie Settings",
-    "description": "Last Updated: June 2026\n\nWe use cookies to improve your browsing experience. You can manage your preferences below.",
+    "description": "Last Updated: October 2026\n\nWe use cookies to improve your browsing experience. You can manage your preferences below.",
     "essential": {
       "title": "Essential Cookies",
       "description": "These cookies are essential for the website to function properly and cannot be disabled.",
@@ -385,7 +337,7 @@
   },
   "officialManagement": {
     "title": "About Diukivskyi Sad",
-    "text": "Diukivskyi Sad is an important park in Odesa, managed and maintained by the Odesa City Government."
+    "text": "Diukivskyi Sad is a public park in Odesa. Questions of land lease, management and pond maintenance change from time to time; for the current status, please check the websites of the Odesa City Council and the Odesa Oblast Administration (links in the Sources section). This independent guide is based on publicly available data."
   },
   "landmarks": {
     "title": "Landmarks & Attractions Around Diukivskyi Sad",
@@ -439,7 +391,7 @@
       },
       {
         "q": "How do I get to Diukivskyi Sad in Odesa?",
-        "a": "Diukivskyi Sad lies within Odesa city and can be reached by city buses, trams, taxi or car. The nearest airport is Odesa International Airport (ODS), about 10 km away. The park's Google Plus Code is FPJ3+VR Odesa."
+        "a": "Diukivskyi Sad lies within Odesa city and can be reached by city buses, trams, taxi or car. The nearest airport is Odesa (ODS, about 10 km), but civil flights are currently limited under the wartime situation — reaching Odesa by train, intercity bus or car is more practical. Google Plus Code: FPJ3+VR Odesa."
       },
       {
         "q": "Is Diukivskyi Sad suitable for families with children?",
